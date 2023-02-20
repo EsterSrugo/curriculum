@@ -1,0 +1,195 @@
+* {
+  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+.box {
+
+    display: flex;
+    flex-wrap: wrap;
+    height: 40px;
+    position: fixed;
+    justify-content: space-between;
+    text-align: center;
+    border-color: brown;
+    background-color: rgb(192, 189, 189);
+    border-style: double;
+
+
+}
+
+
+
+.texto1 {
+    color: rgb(25, 25, 199);
+    font-family: cursive;
+    text-align: center;
+    border-color: rgb(246, 250, 246);
+    border-style: double;
+
+
+}
+
+
+.textoSobreMi{
+    color:rgb(60, 60, 60);
+    padding-top: 25px;
+    text-align: center;
+   font-size: 21px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.container-sm {
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    font-size: 45px;
+    color: white;
+
+
+
+
+    font-family: 'Playfair Display', serif;
+    ;
+    background-color: rgb(11, 108, 125);
+}
+
+.fotoIsabel:hover 
+    {-webkit-transform:scale(1.0);transform:scale(1.3);;
+      }
+
+
+
+#container-md-2 {
+    padding: 25px;
+    text-align: center;
+    margin-left: 5%;
+       
+        font-size: x-large;
+        line-height: 1.5;
+        overflow: hidden;
+    
+    
+    }
+
+
+.container-md {
+    border-radius: 20px;
+ margin: 20px;
+    background: linear-gradient(80deg, rgb(82, 177, 193) 0%, rgb(178, 222, 219) 15%, rgb(149, 179, 185) 5%,  rgb(207, 222, 222) 8%,rgb(137, 183, 190) 5%,  rgb(201, 212, 214) 35%, rgb(215, 229, 232) 35%,  rgb(193, 219, 223) 35%, rgb(254, 254, 254) 100%);
+display:flex;
+    vertical-align: top;
+  
+    font-size: x-large;
+    line-height: 1.5;
+    overflow: hidden;
+
+
+}
+
+
+.container-lg {
+    border-style: double;
+    border-color: green;
+}
+
+.fotoIsabel { 
+    
+    width: 25%;
+    height: 20%;
+    display: flex;
+    justify-content: left;
+
+}
+
+
+
+.container-xxl {
+    border-color: brown;
+    border-style: double;
+}
+.container-xl {
+   
+    display: flex;
+    justify-content: left;
+
+   
+    font-size: small;
+
+    width: 300px;
+    height: 300px;
+
+    border-color: pink;
+    border-style: double;
+}
+
+
+
+
+
+
+
+
+.SobreMi {
+    font-size: small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(14, 14, 14);
+
+
+
+}
+
+
+.segundoDiv {
+    font-size: l;
+    border-style: double;
+    border-color: black;
+    position: relative;
+    bottom: 150px;
+    left: 25px;
+}
+
+p {
+    z-index: 1;
+}
+
+.fa-solid:hover {
+
+    color: rgb(99, 144, 30);
+}
+
+b:hover {
+    text-align: center;
+    color: rgb(99, 144, 30);
+}
+
+h3 {
+    line-height: 1.5;
+    font-family: monospace;
+}
+
+.contenedor {
+
+    position: relative;
+}
+
+.hijo {
+    width: 25%;
+    height: 20cm;
+
+    background-color: rgb(176, 175, 175);
+
+    position: absolute;
+    top: 50%;
+    transform: translate(0, 0%);
+}
+
+
+
+
+
+
