@@ -1,14 +1,11 @@
 * {
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
-
 }
 
 .box {
-
     display: flex;
     flex-wrap: wrap;
     height: 40px;
@@ -18,23 +15,11 @@
     border-color: brown;
     background-color: rgb(192, 189, 189);
     border-style: double;
-
-
 }
 
 
 .card-title {
     text-decoration: none;
-}
-
-.texto1 {
-    color: rgb(25, 25, 199);
-    font-family: cursive;
-    text-align: center;
-    border-color: rgb(246, 250, 246);
-    border-style: double;
-
-
 }
 
 
@@ -52,12 +37,7 @@
     text-align: center;
     font-size: 45px;
     color: white;
-
-
-
-
     font-family: 'Playfair Display', serif;
-    ;
     background-color: rgb(11, 108, 125);
 }
 
@@ -68,17 +48,13 @@
 }
 
 
-
 #container-md-2 {
     padding: 25px;
     text-align: center;
     margin-left: 5%;
-
     font-size: x-large;
     line-height: 1.5;
     overflow: hidden;
-
-
 }
 
 
@@ -93,11 +69,7 @@
     line-height: 1.5;
     overflow: hidden;
 
-
 }
-
-
-
 
 .fotoIsabel {
 
@@ -108,28 +80,20 @@
 
 }
 
-
-
-.container-xxl {
-    border-color: brown;
-    border-style: double;
-}
-
 .container-lg {
     margin: 40px;
-    width:40%;
+    width: 40%;
     height: 40%;
     padding-top: 30px;
-    
 
-   
 }
- .textobotton{
+
+.textobotton {
     text-align: center;
     font-family: monospace;
-    font-size:medium;
-    color:rgb(7, 7, 7);
- }
+    font-size: medium;
+    color: rgb(7, 7, 7);
+}
 
 .SobreMi {
     font-size: small;
@@ -196,11 +160,6 @@ h3 {
     font-family: monospace;
 }
 
-
-
-
-
-
 .contenedor {
 
     position: relative;
@@ -219,35 +178,36 @@ h3 {
 
 .primerBotton {
     display: inline-block;
-    position:relative;
+    position: relative;
     left: 30%;
     border-radius: 10px;
-   font-family:cursive;
-    background-color:rgb(40, 110, 110);
+    font-family: cursive;
+    background-color: rgb(40, 110, 110);
     border-style: none;
     text-align: center;
-    margin:none;
+    margin: none;
     width: 60px;
     color: white;
 }
 
 .segundoBotton {
     display: inline-block;
-    position:relative;
+    position: relative;
     left: 50%;
     border-radius: 10px;
-   font-family:cursive;
-    background-color:rgb(255, 255, 255);
-    border-style:solid;
-    border-color:rgb(40, 110, 110);
+    font-family: cursive;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: rgb(40, 110, 110);
     text-align: center;
-    margin:none;
+    margin: none;
     width: 60px;
-    color:rgb(40, 110, 110);
+    color: rgb(40, 110, 110);
 }
-.textoInferior{
-    text-align:center;
-    font-size:medium;
+
+.textoInferior {
+    text-align: center;
+    font-size: medium;
     font-family: monospace;
 }
 
@@ -255,7 +215,6 @@ h3 {
     .card {
         text-align: center;
         margin: 0 auto;
-
         position: relative;
 
     }
@@ -267,11 +226,38 @@ h3 {
     .card {
         text-align: center;
         width: 60%;
-
         margin: 0 auto;
-
         position: relative;
 
 
     }
 }
+
+@media (max-width: 889px) {
+    .fotoIsabel {
+
+        text-align: center;
+        width: 30%;
+        margin-top: 20px;
+        position: relative;
+
+
+    }
+}
+
+@media (max-width: 755px) {
+    .textoSobreMi {
+
+        border: 1px solid #333333;
+        width: 400px;
+        height: 200px;
+        overflow-y: scroll;
+        padding-top: 35px;
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+        float: right;
+
+    }
+}
+
