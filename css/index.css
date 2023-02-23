@@ -116,17 +116,19 @@
 }
 
 .container-lg {
-
+    margin: 40px;
     width:40%;
     height: 40%;
-    margin-top: 40px;
+    padding-top: 30px;
+    
 
-    border-color: rgb(40, 6, 12);
-    border-style: double;
+   
 }
  .textobotton{
-    font-size: small;
-    color:green;
+    text-align: center;
+    font-family: monospace;
+    font-size:medium;
+    color:rgb(7, 7, 7);
  }
 
 .SobreMi {
@@ -197,33 +199,6 @@ h3 {
 
 
 
-.window-notice {
-    background: rgba(33, 41, 52, .85);
-    left: 0;
-    bottom: 0;
-    right: 0;
-    top: 0;
-    display: flex;
-    position: fixed;
-    z-index: 999;
-}
-
-.window-notice .content {
-    background: #fff;
-    border-radius: 2px;
-    box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
-    box-sizing: content-box;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    max-width: 600px;
-    min-width: 320px !important;
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    padding: 2rem;
-    font-size: 1.3rem;
-}
 
 
 .contenedor {
@@ -242,12 +217,39 @@ h3 {
     transform: translate(0, 0%);
 }
 
-.botonRojo {
+.primerBotton {
+    display: inline-block;
+    position:relative;
+    left: 30%;
+    border-radius: 10px;
+   font-family:cursive;
+    background-color:rgb(40, 110, 110);
+    border-style: none;
+    text-align: center;
     margin:none;
-    width: 30px;
-    color: red;
+    width: 60px;
+    color: white;
 }
 
+.segundoBotton {
+    display: inline-block;
+    position:relative;
+    left: 50%;
+    border-radius: 10px;
+   font-family:cursive;
+    background-color:rgb(255, 255, 255);
+    border-style:solid;
+    border-color:rgb(40, 110, 110);
+    text-align: center;
+    margin:none;
+    width: 60px;
+    color:rgb(40, 110, 110);
+}
+.textoInferior{
+    text-align:center;
+    font-size:medium;
+    font-family: monospace;
+}
 
 @media (max-width: 720px) {
     .card {

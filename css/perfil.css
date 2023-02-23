@@ -1,0 +1,125 @@
+* {
+background-color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+ 
+}
+
+  #container-sm{
+    padding-top: 25px;
+    font-family:monospace;
+    font-size:xx-large;
+text-align: center;
+  
+
+  background: linear-gradient(90deg,  rgb(167, 241, 250),  rgb(226, 224, 221), rgb(11, 103, 131));
+  width:50%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+  
+  }
+h3{
+  color:white;
+  font-family: monospace;
+ text-align:center;
+  font-size:30px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+  
+h2{
+  font-family: monospace;
+    font-size: 35px;
+    text-align:center;
+   color:white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-img-top{
+ 
+ position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+}
+
+button{
+  padding:10px;
+  background-color: rgb(251, 251, 250);
+  border-style: none;
+  
+  font-size:20px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(245, 176, 92);
+
+}
+
+
+button:hover{
+  width:15%;
+  padding:10px;
+  background-color: rgb(245, 176, 92);
+  border-style: none;
+  font-size:25px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(251, 251, 251);
+
+}
+  
+@media (max-width: 720px) {
+  body{
+    background-image: url(../images/info.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat ;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
