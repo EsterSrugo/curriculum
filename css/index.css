@@ -235,7 +235,6 @@ h3 {
 
 @media (max-width: 889px) {
     .fotoIsabel {
-
         text-align: center;
         width: 30%;
         margin-top: 20px;
@@ -247,7 +246,6 @@ h3 {
 
 @media (max-width: 755px) {
     .textoSobreMi {
-
         border: 1px solid #333333;
         width: 400px;
         height: 200px;
@@ -260,4 +258,3 @@ h3 {
 
     }
 }
-
