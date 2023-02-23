@@ -24,37 +24,7 @@ text-align: center;
  
   
   }
-h3{
-  color:white;
-  font-family: monospace;
- text-align:center;
-  font-size:30px;
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
-  
-h2{
-  font-family: monospace;
-    font-size: 35px;
-    text-align:center;
-   color:white;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.card-img-top{
- 
- position: absolute;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%, -50%);
- 
-}
 
 button{
   padding:10px;
@@ -81,14 +51,7 @@ button:hover{
 
 }
   
-@media (max-width: 720px) {
-  body{
-    background-image: url(../images/info.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat ;
-  }
-  
-}
+
 
 
 
